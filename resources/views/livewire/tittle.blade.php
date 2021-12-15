@@ -1,0 +1,1 @@
+<h3 class="lg:text-4xl text-3xl text-center font-sans font-bold">{{$text}}</h3>

@@ -1,0 +1,58 @@
+    .headeri {
+        background-color: #7E33E0;
+    }
+    
+    p {
+        color: #F1F1F1;
+    }
+    
+    .carousel {
+        background-color: #F2F0FF;
+    }
+    
+    .btn {
+        background-color: #FB2E86
+    }
+    
+    h3 {
+        color: #151875;
+    }
+    
+    .graycol {
+        color: #ACABC3;
+    }
+    
+    .text {
+        color: #FB2E86;
+    }
+    
+    .text2 {
+        color: #8A8FB9
+    }
+    
+    @media(max-width:1920) {
+        .elementdiv {
+            margin-left: 445px;
+        }
+    }
+    
+    @media(min-width: 1920) {
+        .container {
+            margin-left: 370px;
+        }
+        .navabar {
+            margin-left: 370px;
+        }
+        .search {
+            padding-left: 369px;
+        }
+        .divHidden {
+            width: 377px;
+            height: 44px;
+        }
+    }
+    /* @media only screen and (max-width: 1620) {
+        .container {
+            margin-left: 200px;
+        }
+    } */
