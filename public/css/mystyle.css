@@ -30,6 +30,10 @@
         color: #8A8FB9
     }
     
+    footer {
+        background-color: #EEEFFB;
+    }
+    
     @media(max-width:1920) {
         .elementdiv {
             margin-left: 445px;

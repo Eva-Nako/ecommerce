@@ -11,16 +11,13 @@
       py-24
       mx-auto
       flex
-      md:items-center
+      md:items-start
       lg:items-start
       md:flex-row md:flex-nowrap
       flex-wrap flex-col
-    "
-    style="background-color: #EEEFFB;
-"
-  >
+    ">
     <div
-      class="flex-shrink-0 md:ml-52 mx-auto text-center md:text-left"
+      class="flex-shrink-0  md:ml-0 lg:ml-52 mx-auto text-center md:text-left"
     >
       <a
         href=""
@@ -58,7 +55,8 @@
     <div
       class="
         flex-grow flex flex-wrap
-        md:pl-20
+        md:pl-4
+        lg:pl-20
         -mb-10
         md:mt-0
         mt-10
@@ -66,7 +64,7 @@
         text-center
       "
     >
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4 lg:mr-20">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4 md:px-0 lg:mr-20">
         <h2
           class="
             title-font

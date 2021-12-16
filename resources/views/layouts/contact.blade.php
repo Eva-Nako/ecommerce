@@ -2,7 +2,7 @@
 @section('content')
         <livewire:header></livewire:header>
         <livewire:section1 text="Contact Us"></livewire:section1>
-        <div class="lg:px-56 px-4">
+        <div class="lg:px-64 px-4">
          <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-40 lg:pt-20 pt-10 lg:pb-40 pb-20">
                      <div>
                          <h3 class="font-bold pb-5">Information About us</h3>

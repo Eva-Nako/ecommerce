@@ -2,7 +2,7 @@
 @section('content')
         <livewire:header></livewire:header>
         <livewire:section1 text="Order Completed"></livewire:section1>
-        <div class="lg:px-56 px-2">
+        <div class="lg:px-64 px-2">
         <div class="flex flex-col justify-center items-center lg:pt-32">
             <div class="pt-3">
                 <img src="img/ticks.jpeg" alt="">

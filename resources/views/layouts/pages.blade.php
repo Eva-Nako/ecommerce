@@ -2,7 +2,7 @@
 @section('content')
         <livewire:header></livewire:header>
         <livewire:section1 text="Shop Grid Default"></livewire:section1>
-<div class="lg:px-56 px-4">
+<div class="lg:px-64 px-4">
         <livewire:sortsection></livewire:sortsection>
 
       <div>

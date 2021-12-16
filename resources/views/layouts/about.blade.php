@@ -2,7 +2,7 @@
 @section('content')
         <livewire:header></livewire:header>
         <livewire:section1 text="About Us"></livewire:section1>
-        <div class="lg:px-56 px-2">
+        <div class="lg:px-64 px-2">
         
         <div class="p-10 lg:p-20">
        <!--Card 1-->
@@ -32,7 +32,12 @@
     </div>
     </div>
     <livewire:tittle text="Our Features"></livewire:tittle>
-    <livewire:shopex-offer></livewire>
+    <div class=" lg:mt-12  lg:px-48 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 ">
+    <livewire:shopex-offer src="img/free-delivery.png"/>
+    <livewire:shopex-offer src="img/cashback.png"/>
+    <livewire:shopex-offer src="img/premium.png"/>
+    <livewire:shopex-offer src="img/support.png"/>
+  </div>
     <div class="py-20">
     <livewire:tittle text="Our Client Say!"></livewire:tittle>
     <div class="flex flex-col justify-center items-center lg:pt-20 pt-10">

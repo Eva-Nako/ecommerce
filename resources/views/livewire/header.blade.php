@@ -1,29 +1,32 @@
 <div class="headeri relative flex flex-wrap items-center justify-between px-2 py-2 mb-3 2xl:h-12" >
-  <div class="container px-4 sm:mx-auto 2xl:mx-20 flex sm:flex-wrap items-center justify-between lg:px-48" >
-           <div class="flex inline">
+  <div class="container px-4 sm:mx-auto 2xl:mx-20 flex sm:flex-wrap items-center justify-between lg:pl-48" >
+           <div class="lg:flex lg:inline-flex md:flex md:inline-flex grid grid-rows-2 gap-y-3 ">
+             <div class="flex inline-flex">
+             <div class="flex inline-flex mr-4">
               <img src="img/Vector.png" alt="Vector"  class="mr-2 w-4 h-4 mt-1">
-               <p class="text-base lg:mr-14 invisible lg:visible">mhhasanul@gmail.com</p>
-              <img src="img/phone.png" alt="Vector"  class="mr-2 w-4 h-4 mt-1">
-               <p class="text-base invisible lg:visible" >(12345)67890</p>
-               <div class="elementdiv flex sm:flex-wrap justify-between lg:ml-96" >
+               <p class="lg:text-base md:text-sm text-base lg:mr-14">mhhasanul@gmail.com</p> </div>
+               <div class="flex inline-flex md:ml-2"> 
+              <img src="img/phone.png" alt="Vector"  class="lg:mr-2 mr-2 md:mr-1 w-4 h-4 mt-1">
+               <p class="lg:text-base md:text-sm text-base" >(12345)67890</p> </div> </div>
+               <div class="flex sm:flex-wrap lg:grid lg:grid-cols-5 md:grid md:grid-cols-5 md:ml-28 md:gap-1 gap-3 justify-between lg:ml-96" >
                <button type="button" class="text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
-                <span>Englisht</span>
+                <span class="text-base md:text-sm lg:text-base">Englisht</span>
                  <svg class="text-white h-5 w-5 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
               </button>
               <button type="button" class="lg:ml-2 text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
-                <span>USD</span>
+                <span class="text-base md:text-sm lg:text-base">USD</span>
                  <svg class="text-white h-5 w-5 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
               </button>
-              <button type="button" class="text-base ml-2 mr-2 text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false" >
-                <span class="invisible lg:visible">Login</span>
+              <button type="button" class="text-base ml-2 mr-2 md:ml-0 md:mr-0 text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false" >
+                <span class="text-base md:text-sm lg:text-base">Login</span>
                 <img src="img/carbon_user.png" alt="Vector"  class="w-4 h-4">
               </button>
-              <button type="button" class="text-base ml-2 lg:mr-1 text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false" >
-                <span class="invisible lg:visible">WishList</span>
+              <button type="button" class="text-base ml-2 md:ml-0 md:mr-0 lg:mr-1 text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false" >
+                <span class="text-base md:text-sm lg:text-base">WishList</span>
                 <img src="img/heart.png" alt="Vector"  class="w-4 h-4">
               </button>
               <button type="button" class="text-base text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false" >
@@ -40,7 +43,7 @@
 <nav class=" navbar bg-white  border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 lg:ml-64">
   <div class="mx-auto flex flex-wrap items-center">
   <h1 class="sm:self-center lg:text-4xl sm:text-2xl font-semibold  whitespace-nowrap dark:text-white">Hekto</h1>
-  <div class="flex lg:ml-56 md:order-2">
+  <div class="flex lg:ml-60 md:ml-2 md:order-2">
       <div class="relative mr-3 md:mr-0 hidden md:block">
       <input type="text" id="email-adress-icon" class="bg-gray-50 border-2 border-gray-300 text-gray-900 sm:text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" >
     <button type="button" class="btn absolute inset-y-0 right-0 w-12 pr-3 flex items-center border-l ">
@@ -53,11 +56,11 @@
       <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
     </button>
   </div>
-  <div class="hidden md:flex lg:ml-20 justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
+  <div class="hidden md:flex lg:ml-20 md:ml-2 justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
     <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
     <li>
       <button type="button" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
-            <span>Home</span>
+           <a href="welcome"> <span>Home</span></a>
             <svg class="text-gray-400 h-5 w-5 group-hover:text-gray-500 lg:mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
             </svg>
