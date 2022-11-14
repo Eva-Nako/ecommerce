@@ -30,10 +30,9 @@
           <p class="text-gray-500 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est <br> adipiscing in phasellus non in justo.</p>
         </div>
         <div class="flex items-center">
-          <img class="pr-10" src="img/Elipse21.png">
-          <img class="pr-10" src="img/Elipse22.png">
-          <img class="pr-10" src="img/Elipse23.png">
-         
+         <a href="#"><img class="pr-10 hover:bg-blue" src="img/Elipse21.png"> </a> 
+         <a href=""><img class="pr-10" src="img/Elipse22.png"></a> 
+         <a href=""> <img class="pr-10" src="img/Elipse23.png"></a>
         </div>
       </div>
     </div>
