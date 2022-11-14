@@ -9,29 +9,29 @@
               <img src="img/phone.png" alt="Vector"  class="lg:mr-2 mr-2 md:mr-1 w-4 h-4 mt-1">
                <p class="lg:text-base md:text-sm text-base" >(12345)67890</p> </div> </div>
                <div class="flex sm:flex-wrap lg:grid lg:grid-cols-5 md:grid md:grid-cols-5 md:ml-28 md:gap-1 gap-3 justify-between lg:ml-96" >
-               <button type="button" class="text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
+               <a href="#" class="text-white group inline-flex items-center text-base" aria-expanded="false">
                 <span class="text-base md:text-sm lg:text-base">Englisht</span>
                  <svg class="text-white h-5 w-5 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
-              </button>
-              <button type="button" class="lg:ml-2 text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
+                </a>
+              <a href="#"  class="lg:ml-2 text-white group inline-flex items-center text-base aria-expanded="false">
                 <span class="text-base md:text-sm lg:text-base">USD</span>
                  <svg class="text-white h-5 w-5 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
-              </button>
-              <button type="button" class="text-base ml-2 mr-2 md:ml-0 md:mr-0 text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false" >
+                </a>
+              <a href="#" class="text-base ml-2 mr-2 md:ml-0 md:mr-0 text-white group inline-flex items-center text-base" aria-expanded="false" >
                 <span class="text-base md:text-sm lg:text-base">Login</span>
                 <img src="img/carbon_user.png" alt="Vector"  class="w-4 h-4">
-              </button>
-              <button type="button" class="text-base ml-2 md:ml-0 md:mr-0 lg:mr-1 text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false" >
-                <span class="text-base md:text-sm lg:text-base">WishList</span>
+              </a>
+              <a href="#" class="text-base ml-2 md:ml-0 md:mr-0 lg:mr-1 text-white group inline-flex items-center text-base" aria-expanded="false" >
+                <span class="text-base md:text-sm lg:text-base lg:mr-2">WishList</span>
                 <img src="img/heart.png" alt="Vector"  class="w-4 h-4">
-              </button>
-              <button type="button" class="text-base text-white group rounded-md inline-flex items-center text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false" >
-              <img src="img/fluent_cart-24-regular.png" alt="Vector"  class=" w-5 h-5 ">
-              </button>
+              </a>
+              <a href="#" class="text-base text-white group inline-flex items-center text-base" aria-expanded="false" >
+              <img src="img/fluent_cart-24-regular.png" alt="Vector"  class=" w-5 h-5 lg:ml-4">
+              </a>
               
               </div>
            </div>
