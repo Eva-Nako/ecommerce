@@ -6,14 +6,14 @@
       </div>
       <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
         <div class="mb-8">
-          
-          <div class="font-bold text-xl mb-2 lg:flex inline-flex"> <h3 class="lg:pr-10 pr-3">Accumsan tincidunt</h3>
-          <div>
-          <i class="fa fa-circle text-yellow-500 " ></i>
-          <i class="fa fa-circle text-red-500 " ></i>
-          <i class="fa fa-circle text-blue-600" ></i>
-          </div>
-        </div>
+            <div class="font-bold text-xl mb-2 lg:flex inline-flex">
+                  <div><h3 class="lg:pr-10 pr-3">Accumsan tincidunt</h3></div>
+                <div class="flex space-x-2 mt-2">
+                  <div class="rounded-full w-3 h-3" style="background: #DE9034;"></div>
+                  <div class="rounded-full w-3 h-3" style="background: #E60584;"></div>
+                  <div class="rounded-full w-3 h-3" style="background: #5E37FF;"></div>
+                </div>
+              </div>
           <div class="lg:flex inline-flex"><h3 class="font-bold text-sm text-gray-600 flex items-center">
             $26.00 
           </h3>
