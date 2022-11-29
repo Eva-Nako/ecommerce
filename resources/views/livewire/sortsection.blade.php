@@ -3,7 +3,7 @@
         <h3 class="lg:text-2xl md:text-2xl text-xl font-bold">Ecommerce Acceories & Fashion item </h3>
         <div class="lg:flex lg:justify-between md:flex  md:justify-between grid">
             <div>
-              <h3 class="pt-3" style="color:#3F509E; font-family: 'Lato';">About 9,620 results (0.62 seconds) </h3>
+              <h3 class="pt-3" style="color:#8A8FB9; font-family: 'Lato';">About 9,620 results (0.62 seconds) </h3>
             </div>
             <div class="hidden lg:flex lg:inline-flex md:flex md:flex-inline grid grid-cols-3 space-x-4">
                  <div style="color:#3F509E; font-family: 'Lato';">

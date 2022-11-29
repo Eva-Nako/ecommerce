@@ -6,10 +6,10 @@
     <img src="{{$src}}" class="lg:px-2" />
   </div>
   <div class="text-center">
-    <h5 class="lg:text-base lg:mt-3.5 text-sm font-semibold lg:mb-3 mb-1 text-blue-900">Cantilever chair</h5>
-    <div class="grid grid-cols-2 lg:mb-10 lg:px-20 md:px-5 px-24">
-      <h3 class="text-blue-900">$26.00 </h3>
-      <h3 class="text-gray-300 line-through">$42.00</h3>
+    <h5 class="lg:text-base lg:mt-3.5 text-sm font-semibold mb-1 text-blue-900">Cantilever chair</h5>
+    <div class="flex place-content-center space-x-2 mb-3.5 ">
+      <h3 class="lg:text-base text-sm text-blue-900">$26.00 </h3>
+      <h3 class="lg:text-base text-sm text-gray-300 line-through">$42.00</h3>
     </div>
   </div>
 </button>

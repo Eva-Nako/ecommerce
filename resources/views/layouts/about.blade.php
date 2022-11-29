@@ -32,11 +32,11 @@
     </div>
     </div>
     <livewire:tittle text="Our Features"></livewire:tittle>
-    <div class=" lg:mt-12  lg:px-48 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 ">
-    <livewire:shopex-offer src="img/free-delivery.png"/>
-    <livewire:shopex-offer src="img/cashback.png"/>
-    <livewire:shopex-offer src="img/premium.png"/>
-    <livewire:shopex-offer src="img/support.png"/>
+    <div class=" lg:mt-12 mt-6 px-8 grid grid-cols-2 sm:grid-cols-1 gap-y-6 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 ">
+    <livewire:shopex-offer src="img/free-delivery.png" />
+    <livewire:shopex-offer src="img/cashback.png" />
+    <livewire:shopex-offer src="img/premium.png" />
+    <livewire:shopex-offer src="img/support.png" />
   </div>
     <div class="py-20">
     <livewire:tittle text="Our Client Say!"></livewire:tittle>

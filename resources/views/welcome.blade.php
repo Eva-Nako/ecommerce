@@ -5,7 +5,7 @@
 <livewire:header />
 
 <!--karusel-->
-<div class="mt-6 carousel ">
+<!-- <div class="mt-6 carousel ">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -28,8 +28,8 @@
     </div>
     <div class="swiper-pagination"></div>
   </div>
-</div>
-
+</div> -->
+<div><livewire:caroselhome></livewire:caroselhome> </div>
 <!--Featured Products-->
 <div class="lg:mt-28 mt-5 lg:px-48">
   <livewire:tittle text="Featured Products" />
