@@ -6,23 +6,20 @@
         
         <div class="p-10 lg:p-20">
        <!--Card 1-->
-      <div class=" w-full lg:max-w-full lg:flex">
-      <div class=" flex-none bg-cover  text-center overflow-hidden">
+      <div class="lg:flex lg:flex-cols-2 lg:space-x-2">
+      <div class="">
           <img src="img/corporate.png"  alt="">
       </div>
-      <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="mb-8">
-          
-          <div class="font-bold text-xl mb-3.5 pt-10 lg:flex inline-flex"> <h3 class="lg:pr-10 pr-3">Know About Our Ecomerce <br>
+      <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r lg:grid lg:grid-rows-3 lg:gap-2 flex flex-col justify-between leading-normal">
+        <div class="font-bold text-xl mb-3.5 lg:flex inline-flex"> <h3 class="">Know About Our Ecomerce <br>
             Business, History</h3>
-         
-        </div>
-          
+         </div>
+          <div>
           <p class="text-gray-500 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices
               <br> mattis aliquam, malesuada diam est. Malesuada sem tristique amet erat vitae
               <br> eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.</p>
         </div>
-        <div class="pb-6">
+        <div>
            <button class="btn text-white font-bold py-2 px-4 rounded inline-flex items-center">
            <span>Continue Shopping</span>
            </button>
